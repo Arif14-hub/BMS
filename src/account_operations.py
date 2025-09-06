@@ -1,7 +1,7 @@
 from db_config import connect
 
 def create_account():
-    name = input("Enter Your Name: ")
+    name = input("Enter Your Name:  ")
     email = input("Enter Your Email Id: ")
     phone = input("Enter Your Phone Number: ")
     balance = float(input("Enter Your Opening Balance: "))
